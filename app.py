@@ -20,7 +20,7 @@ if "captcha_text" not in st.session_state:
     st.session_state["captcha_text"], st.session_state["captcha_image"] = generate_captcha()
 
 # Interfeys
-st.title("CAPTCHA Tekshirish")
+st.title("Botlarni aniqlash")
 st.write("Quyidagi CAPTCHA matnini kiriting:")
 
 # CAPTCHA-ni ko'rsatish
